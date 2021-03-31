@@ -37,7 +37,7 @@ var chart = venn.VennDiagram()
 d3.select("#venn").datum(sets).call(chart);
 ```
 
-[View this example ](http://benfred.github.io/venn.js/examples/simple.html)
+[View this example ](http://joshuabhk.github.io/venn.js/examples/simple.html)
 
 ##### Changing the Style
 
@@ -54,7 +54,7 @@ d3.selectAll("#inverted .venn-circle path")
 d3.selectAll("#inverted text").style("fill", "white");
 ```
 
-[View this example, along with other possible styles](http://benfred.github.io/venn.js/examples/styled.html)
+[View this example, along with other possible styles](http://joshuabhk.github.io/venn.js/examples/styled.html)
 
 
 ##### Dynamic layout
@@ -73,7 +73,7 @@ d3.selectAll("input").on("change", function() {
 });
 ```
 
-[View this example](http://benfred.github.io/venn.js/examples/dynamic.html)
+[View this example](http://joshuabhk.github.io/venn.js/examples/dynamic.html)
 
 ##### Making the diagram interactive
 
@@ -94,7 +94,7 @@ d3.selectAll("#rings .venn-circle")
                            .style("font-size", "24px");
     });
 ```
-[View this example](http://benfred.github.io/venn.js/examples/interactive.html)
+[View this example](http://joshuabhk.github.io/venn.js/examples/interactive.html)
 
 ##### Adding tooltips
 
@@ -143,6 +143,6 @@ div.selectAll("g")
             .style("stroke-opacity", 0);
     });
 ```
-[View this example](http://benfred.github.io/venn.js/examples/intersection_tooltip.html)
+[View this example](http://joshuabhk.github.io/venn.js/examples/intersection_tooltip.html)
 
 Released under the MIT License.
